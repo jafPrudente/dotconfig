@@ -1,0 +1,29 @@
+{
+  "include": "~/.config/waybar/modules",
+  "layer": "top",
+  "position": "top",
+  
+  "modules-left": [
+    "custom/logo",
+    "disk",
+    "memory",
+    "cpu",
+    "temperature"
+  ],
+  
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+  
+  "modules-right": [
+    "wlr/taskbar",
+    "idle_inhibitor",
+    "backlight",
+    "group/audio",
+    "bluetooth",
+    "group/networking",
+    "battery",
+    "clock"
+  ]
+  
+}
