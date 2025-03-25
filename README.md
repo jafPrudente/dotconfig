@@ -15,6 +15,8 @@
    - alacritty
    - thunderbird
    - python3-pip
+   - gnuplot
+   - gfortran
 3. Instalar una nerdfont (se guardan en `/usr/share/fonts`).
 4. Con pip instalar:
    - jupyter
